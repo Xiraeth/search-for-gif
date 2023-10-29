@@ -1,0 +1,57 @@
+body {
+  min-height: 100vh;
+  overflow: hidden;
+  background: dodgerblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+:root {
+  font-size: 30px;
+}
+
+* {
+  box-sizing: border-box;
+  color: white;
+}
+
+button {
+  background: transparent;
+  outline: none;
+  border: 1px solid black;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 15px;
+  transition: all 0.15s;
+  cursor: pointer;
+}
+
+button:hover {
+  color: dodgerblue;
+  background-color: black;
+}
+
+button:active {
+  opacity: 0.7;
+}
+
+label {
+  font-size: 1.2rem;
+}
+
+input {
+  font-size: 1.2rem;
+  color: black;
+  padding: 5px 15px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid black;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
