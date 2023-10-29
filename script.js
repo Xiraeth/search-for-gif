@@ -30,7 +30,7 @@ searchBtn.addEventListener("click", (e) => {
   searchTerm = input.value;
   previousTerm = searchTerm;
   if (!searchTerm) {
-    image.src = "images/notFound.gif";
+    image.src = "notFound.gif";
   } else {
     generateGif(searchTerm);
   }
